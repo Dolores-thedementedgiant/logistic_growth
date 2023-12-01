@@ -1,11 +1,14 @@
 #Script to plot the logistic growth data
 
-growth_data <- read.csv("???")
+# Import data from simulation
+growth_data <- read.csv("experiment1.csv")
 
+# install packages 
 install.packages("ggplot2")
 library(ggplot2)
 
-ggplot(aes(t,N), data = ???) +
+# Plot N against t over time
+ggplot(aes(t,N), data = growth_data) +
   
   geom_point() +
   
@@ -15,7 +18,8 @@ ggplot(aes(t,N), data = ???) +
   
   theme_bw()
 
-ggplot(aes(t,???), data = growth_data) +
+# Plot log10(N) against t over time 
+ggplot(aes(t,N), data = growth_data) +
   
   geom_point() +
   

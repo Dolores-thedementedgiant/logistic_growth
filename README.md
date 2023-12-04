@@ -14,5 +14,7 @@ The population size predicted by exponential growth model at t=4980min is much l
 This is because the logistic growth model takes into account the slowing rate of population growth as N(t) approaches the carrying capacity K.
 
 Q3: The R script that produces graph comparing exponential/logistic curves is titled: curves comparison.R
+
 The graph file is titled: comparison.png
+
 ![image](https://github.com/Dolores-thedementedgiant/logistic_growth/assets/148791070/2a3cf794-5d07-41c3-bfb1-e8fe28dc0c47)
